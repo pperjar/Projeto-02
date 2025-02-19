@@ -13,18 +13,18 @@ body {
 
 header {
     height: 125 px;
-    width: 100% ;
+    
 }
 header figure{
     text-align: center;
     height: 80px;
-    width: 100%px;   
+    
 }
 
 header figure img{
     width: 171px;
     height: 36px;
-    margin: 22px;
+    margin: 22px 0px;
 }
 
 li a {
@@ -38,4 +38,6 @@ li a {
 
 ul{
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
